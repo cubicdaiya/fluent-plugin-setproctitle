@@ -2,7 +2,7 @@
 
 module Fluent
   class SetProctitleDummyInput < Input
-    Fluent::Plugin.register_input('NAME', self)
+    Fluent::Plugin.register_input('setproctitle', self)
 
     def configure(conf)
       super
