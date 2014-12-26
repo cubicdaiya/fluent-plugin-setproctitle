@@ -1,7 +1,7 @@
 # encoding: UTF-8
 
 module Fluent
-  class  < Fluent::Input
+  class SetProctitleDummyInput < Input
     Fluent::Plugin.register_input('NAME', self)
 
     def configure(conf)
