@@ -1,31 +1,24 @@
-# Fluent::Plugin::Setproctitle
+# fluent-plugin-setproctitle
 
-TODO: Write a gem description
+fluent-plugin-setproctitle provides a function for renaming fluentd process name.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install it using gem:
 
-```ruby
-gem 'fluent-plugin-setproctitle'
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install fluent-plugin-setproctitle
+$ gem install fluent-plugin-setproctitle
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+<source>
+  type setproctitle
+  proctitle fluentd1
+</source>
+```
 
-## Contributing
+## License
 
-1. Fork it ( https://github.com/[my-github-username]/fluent-plugin-setproctitle/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+MIT License
