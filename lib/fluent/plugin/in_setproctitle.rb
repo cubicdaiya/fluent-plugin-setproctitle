@@ -8,5 +8,5 @@ module Fluent
       super
       Process.setproctitle conf['proctitle']
     end
-
+  end
 end
