@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-setproctitle"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.authors       = ["Tatsuhiko Kubo"]
   spec.email         = ["cubicdaiya@gmail.com"]
   spec.summary       = %q{plugin for renaming fluentd process name}
